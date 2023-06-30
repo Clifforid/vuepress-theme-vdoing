@@ -1,25 +1,37 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Evan's blog
-tagline: Web前端技术博客，积跬步以至千里，致敬每个爱学习的你。
+heroText: Cliff's blog
+tagline: 个人博客，每日记录，慢慢进步和改变。
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
   - title: 前端
-    details: JavaScript、ES6、Vue框架等前端技术
+    details: JavaScript、TypeScript、ES6、Vue框架等前端技术
     link: /web/ # 可选
-    imgUrl: /img/web.png # 可选
+    imgUrl: /img/爱宠29.png # 可选
   - title: 页面
-    details: html(5)/css(3)，前端页面相关技术
+    details: UI设计，前端页面相关设计思路
     link: /ui/
-    imgUrl: /img/ui.png
-  - title: 技术
-    details: 技术文档、教程、技巧、总结等文章
-    link: /technology/
-    imgUrl: /img/other.png
+    imgUrl: /img/爱宠28.png
+  - title: 设计
+    details: 学习PS、AI等软件设计海报、Banner等
+    link: /design/
+    imgUrl: /img/爱宠27.png
+  - title: 金融
+    details: 学习金融知识的文章
+    link: /finance/
+    imgUrl: /img/爱宠01.png
+  - title: 心理
+    details: 改善心理状态的方法，研究心理学的文章
+    link: /psychology/
+    imgUrl: /img/爱宠11.png
+  - title: 生活
+    details: 生活日记，每天快乐的生活
+    link: /life/
+    imgUrl: /img/爱宠14.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
