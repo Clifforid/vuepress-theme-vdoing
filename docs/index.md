@@ -1,35 +1,35 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Cliff's blog
-tagline: 个人博客，每日记录，慢慢进步和改变。
+heroText: CyberInk of Cliff
+tagline: 个人站，每日记录，慢慢进步和改变。
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
-  - title: 前端
-    details: JavaScript、TypeScript、ES6、Vue框架等前端技术
-    link: /web/ # 可选
-    imgUrl: /img/爱宠29.png # 可选
-  - title: 页面
+  - title: UI设计
     details: UI设计，前端页面相关设计思路
     link: /ui/
     imgUrl: /img/爱宠28.png
-  - title: 设计
-    details: 学习PS、AI等软件设计海报、Banner等
-    link: /design/
+  - title: 平面设计
+    details: 学习PS、AI等软件设计海报、LOGO等
+    link: /2d-design/
     imgUrl: /img/爱宠27.png
+  - title: 3D设计
+    details: 学习Blender等软件设计CG等
+    link: /3d-design/
+    imgUrl: /img/爱宠11.png
+  - title: 前端
+    details: JS/TS、Vue框架等前端技术
+    link: /web/ # 可选
+    imgUrl: /img/爱宠29.png # 可选
   - title: 金融
     details: 学习金融知识的文章
     link: /finance/
     imgUrl: /img/爱宠01.png
-  - title: 心理
-    details: 改善心理状态的方法，研究心理学的文章
-    link: /psychology/
-    imgUrl: /img/爱宠11.png
   - title: 生活
-    details: 生活日记，每天快乐的生活
+    details: 生活日记，记录每天快乐的生活
     link: /life/
     imgUrl: /img/爱宠14.png
 

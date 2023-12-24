@@ -7,8 +7,8 @@ categories:
 tags:
   - 
 author: 
-  name: xugaoyi
-  link: https://github.com/xugaoyi
+  name: cliff
+  link: https://github.com/clifforid
 ---
 # 投研兴趣班中的一堂心理课
 

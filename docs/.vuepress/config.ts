@@ -8,7 +8,7 @@ import dayjs from "dayjs";
 import baiduCode from "./config/baiduCode"; // 百度统计hm码
 import htmlModules from "./config/htmlModules"; // 自定义插入的html块
 
-const DOMAIN_NAME = "xugaoyi.com"; // 域名 (不带https)
+const DOMAIN_NAME = "cyberink.com"; // 域名 (不带https)
 const WEB_SITE = `https://${DOMAIN_NAME}`; // 网址
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
@@ -18,9 +18,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Cliff's blog",
+      title: "CyberInk",
       description:
-        "记录博客,任何学习到的内容都会记录,工作内容是金融领域的前端、UI和平面设计,同时也会有心理学的学习记录和生活记录",
+        "Cliff个人站,任何学习到的内容都会记录,工作内容是金融领域的UI、2D/3D设计和前端,同时也会有其他的学习记录和生活记录",
     },
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -31,52 +31,54 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: "首页", link: "/" },
       {
+        text: "UI设计",
+        link: "/ui/",
+        items: [{ text: "UI设计基础认知", link: "/pages/c97506/" }],
+      },
+      {
+        text: "平面设计",
+        link: "/2d-design/",
+        items: [
+          { text: "海报设计", link: "/pages/9d6e97/" },
+          { text: "插画设计", link: "/pages/67f506/" },
+        ],
+      },
+      {
+        text: "3D设计",
+        link: "/3d-design/",
+        items: [{ text: "Blender学习文档", link: "/pages/c78b84/" }],
+      },
+      {
         text: "前端",
-        link: "/frontend/", //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: "/web/", //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: "前端文章",
-            items: [{ text: "JavaScript", link: "/pages/jsstudy/" }],
+            text: "前端书籍",
+            items: [
+              { text: "程序是怎样跑起来的", link: "/pages/58c2c9/" },
+              { text: "计算机是怎样跑起来的", link: "/pages/2e4a4d/" },
+            ],
           },
         ],
       },
       {
-        text: "页面",
-        link: "/ui/",
-        items: [{ text: "规范", link: "/pages/specification/" }],
-      },
-      {
-        text: "设计",
-        link: "/design/",
-        items: [{ text: "PS学习文档", link: "/pages/photoshop/" }],
-      },
-      {
         text: "金融",
         link: "/finance/",
-        items: [{ text: "学习", link: "/pages/quantization/" }],
-      },
-      {
-        text: "心理",
-        link: "/psychology/",
-        items: [{ text: "六月29", link: "/pages/0629study/" }],
-      },
-      {
-        text: "读书",
-        link: "/book/",
         items: [
-          { text: "程序是怎样跑起来的", link: "/pages/howprogramrun/" },
-          { text: "计算机是怎样跑起来的", link: "/pages/howcomputerrun/" },
+          { text: "金融基础认知", link: "/pages/b760e4/" },
+          { text: "金融中的设计如何开展", link: "/pages/56f794/" },
         ],
       },
       {
         text: "生活",
         link: "/life/",
+        items: [{ text: "生活点滴记录", link: "/pages/8b7447/" }],
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: "/img/panda-web-tsp.png", // 导航栏logo
-    repo: "xugaoyi/vuepress-theme-vdoing", // 导航栏右侧生成Github链接
+    repo: "Clifforid/vuepress-theme-vdoing", // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: "上次更新", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: "docs", // 编辑的文件夹
