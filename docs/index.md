@@ -1,7 +1,7 @@
 ---
 home: true
-# heroImage: /img/web.png
-heroText: CyberInk of Cliff
+# heroImage: /img/爱宠27.png
+heroText: CyberInk
 tagline: 个人站，每日记录，慢慢进步和改变。
 # actionText: 立刻进入 →
 # actionLink: /web/
@@ -12,27 +12,27 @@ features: # 可选的
   - title: UI设计
     details: UI设计，前端页面相关设计思路
     link: /ui/
-    imgUrl: /img/爱宠28.png
+    imgUrl: /homepage/UI设计.svg
   - title: 平面设计
     details: 学习PS、AI等软件设计海报、LOGO等
     link: /2d-design/
-    imgUrl: /img/爱宠27.png
+    imgUrl: /homepage/平面设计.svg
   - title: 3D设计
     details: 学习Blender等软件设计CG等
     link: /3d-design/
-    imgUrl: /img/爱宠11.png
+    imgUrl: /homepage/3D设计.svg
   - title: 前端
     details: JS/TS、Vue框架等前端技术
     link: /web/ # 可选
-    imgUrl: /img/爱宠29.png # 可选
+    imgUrl: /homepage/前端.svg
   - title: 金融
     details: 学习金融知识的文章
     link: /finance/
-    imgUrl: /img/爱宠01.png
+    imgUrl: /homepage/金融.svg
   - title: 生活
     details: 生活日记，记录每天快乐的生活
     link: /life/
-    imgUrl: /img/爱宠14.png
+    imgUrl: /homepage/生活.svg
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
