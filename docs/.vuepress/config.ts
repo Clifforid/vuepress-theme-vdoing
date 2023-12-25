@@ -73,7 +73,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: "生活",
         link: "/life/",
-        items: [{ text: "生活点滴记录", link: "/pages/8b7447/" }],
+        items: [
+          { text: "自我介绍", link: "/pages/64a2c1/" },
+          { text: "生活点滴记录", link: "/pages/8b7447/" },
+        ],
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
